@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 
 # file read using pandas
-TF_binding_data = pd.read_csv("TFbinding-HW3-F23.txt", delimiter="\t")
+TF_binding_data = pd.read_csv("TFbindings.txt", delimiter="\t")
 
 # The mean and standard deviation of expression levels were calculated
 Expression_level = TF_binding_data['Expression Level']
